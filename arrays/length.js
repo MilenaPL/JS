@@ -1,8 +1,7 @@
 //nesting 
-//fck should be contain spaces and second one valid 
 let password= "doggy dog";
-if (password.lenght>=6) {
-    if(password.indexOf (` `) ===-1){
+if (password.length>=6) {
+    if(password.indexOf(' ') ===-1){
         console.log("VALID PASSWORD");
     }
     else{
@@ -15,14 +14,12 @@ else{
 
 //and &&
 let pass="hellokitty";
-if(pass.lenght>=6 && pass.indexOf (" ")===-1){
+if(pass.length>=6 && pass.indexOf (" ")===-1){
     console.log("Valid");
 }
 else{
     console.log("Unvalid");
 }
-
-//fck should be contain spaces and second one valid 
 
 let num = 82
 if (num>1 && num <10){

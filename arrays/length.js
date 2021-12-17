@@ -12,6 +12,7 @@ else{
     console.log("Password too short");
 }
 
+
 //and &&
 let pass="hellokitty";
 if(pass.length>=6 && pass.indexOf (" ")===-1){

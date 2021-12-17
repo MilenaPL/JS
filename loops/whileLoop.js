@@ -19,4 +19,15 @@ while(number<max){
     number++;
     console.log('the current size of array is ' + number)
 }
-console.log(arr)
+console.log('arr', arr)
+
+let sum = 0;
+for (let index = 0; index < arr.length; index++) {
+    const element = arr[index];
+    sum+=element; // sum = sum + element
+    // sum-=element; // sum = sum - element
+    // sum*=element; // sum = sum * element
+    // sum/=element; // sum = sum / element
+}
+
+console.log('sum', sum);

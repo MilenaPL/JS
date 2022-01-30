@@ -1,5 +1,5 @@
 const numbers= {
-  100    :`one hundred`,
+  100    :`one hundred`, // keys => [A-Za-z0-9]
   16     : `sixteen`,
   '76 ducks' : `animals`
 }
@@ -26,7 +26,7 @@ score
 score2=score
 score2.new2=2000
 score
-score.my++;
+++score.my;
 score.my
 score.his+200 // like that it doesn't change in object, it's temporary
 score.her=2 //with equal score is changing in object
